@@ -31,7 +31,6 @@ def lights(color, indexes):
         mutex.release()
 
         off = not off
-        print (off)
 
         time.sleep(random.uniform(.5, 1))
 
